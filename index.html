@@ -4,73 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT Kasir Pintar Internasional</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #35424a;
-            color: #ffffff;
-            padding: 1rem;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .services, .team {
-            margin: 20px 0;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background: #35424a;
-            color: #ffffff;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to PT Kasir Pintar Internasional</h1>
-    </header>
-    <section>
-        <h2>Company Structure</h2>
-        <p>PT Kasir Pintar Internasional is structured to provide top-notch services in financial technology. We cater to various business sectors with a focus on user-friendly payment solutions.</p>
-
-        <h2>Our Offices</h2>
-        <p>We have established offices in two strategic locations:</p>
-        <ul>
-            <li>Surabaya</li>
-            <li>Malang</li>
-        </ul>
-
-        <h2>Our Services</h2>
-        <div class="services">
+        <div class="logo">PT Kasir Pintar Internasional</div>
+        <nav>
             <ul>
-                <li>Payment Gateway Solutions</li>
-                <li>E-commerce Integrations</li>
-                <li>Mobile Payment Solutions</li>
-                <li>Financial Analytics</li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#structure">Our Structure</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </div>
+        </nav>
+    </header>
 
-        <h2>Meet Our Team</h2>
-        <div class="team">
-            <p>Our team comprises experienced professionals dedicated to delivering the best solutions for our clients. Together, we work towards establishing a strong presence in the financial technology sector.</p>
+    <section class="hero">
+        <h1>Welcome to PT Kasir Pintar Internasional</h1>
+        <p>Your partner in smart cash solutions.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a leader in providing innovative cash solutions tailored to your business needs.</p>
+    </section>
+
+    <section id="structure">
+        <h2>Our Organizational Structure</h2>
+        <ul>
+            <li>CEO</li>
+            <li>CTO</li>
+            <li>Marketing Manager</li>
+            <li>Finance Manager</li>
+        </ul>
+    </section>
+
+    <section id="locations">
+        <h2>Our Office Locations</h2>
+        <div class="location">
+            <h3>Surabaya</h3>
+            <p>Address: Jl. Example 1, Surabaya</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="location">
+            <h3>Malang</h3>
+            <p>Address: Jl. Example 2, Malang</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
     <footer>
-        <p>&copy; 2026 PT Kasir Pintar Internasional. All rights reserved.</p>
+        <p>&copy; 2026 PT Kasir Pintar Internasional. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
